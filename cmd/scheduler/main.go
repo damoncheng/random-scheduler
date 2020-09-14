@@ -15,7 +15,7 @@ import (
 const schedulerName = "random-scheduler"
 
 type Scheduler struct {
-	clientset  *kubernetes.Clientset
+	clientset *kubernetes.Clientset
 }
 
 func NewScheduler() Scheduler {
@@ -30,7 +30,7 @@ func NewScheduler() Scheduler {
 	}
 
 	return Scheduler{
-		clientset:  clientset,
+		clientset: clientset,
 	}
 }
 

@@ -17,5 +17,5 @@ spec:
       serviceAccount: random-scheduler
       containers:
         - name: random-scheduler
-          image: martonsereg/scheduler:v0.1
+          image: damoncheng/scheduler:v0.1
           imagePullPolicy: Always
